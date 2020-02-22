@@ -11,7 +11,7 @@ const mongoose = require('mongoose')
 // const {  } = require('./config.js')
 const app = new Koa()
 
-mongoose.connect('mongodb://localhost/zhihu',{useNewUrlParser:true},()=>{
+mongoose.connect('mongodb://http://14.126.109.92:27017/zhihu',{useNewUrlParser:true},()=>{
     console.log('成功！！')
 })
 
