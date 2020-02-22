@@ -1,0 +1,29 @@
+{
+  "name": "zhihu-Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env process.env.NODE_ENV=production node app",
+    "dev": "nodemon ./app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-parameter": "^3.0.1",
+    "koa-parser": "^1.0.8",
+    "koa-router": "^8.0.6",
+    "koa-static": "^5.0.0",
+    "mogoose": "0.0.1-security",
+    "mongoose": "^5.8.11"
+  }
+}
